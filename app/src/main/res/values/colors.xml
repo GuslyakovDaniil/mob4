@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2196F3</color> <!-- Голубой -->
+    <color name="colorPrimaryDark">#0D47A1</color> <!-- Темно-синий -->
+    <color name="colorAccent">#FFEB3B</color> <!-- Ярко-желтый -->
+
+    <color name="background">#B2FF59</color> <!-- Светло-зеленый -->
+    <color name="buttonColor">#FFAB40</color> <!-- Персиковый -->
+    <color name="textColor">#0D47A1</color> <!-- Темно-синий -->
+    <color name="hintTextColor">#388E3C</color> <!-- Темно-зеленый -->
+    <color name="iconColor">#FF4081</color> <!-- Розовый -->
+    <color name="chatBackground">#FFFFFF</color> <!-- Белый для фона чата -->
+    <color name="gray">#E0E0E0</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+</resources>

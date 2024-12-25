@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".HomeFragment">
+
+    <ListView
+        android:id="@+id/chatListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btnLogout"
+        android:divider="@color/gray"
+        android:dividerHeight="1dp"
+        android:padding="8dp" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:backgroundTint="#F44336"
+        android:padding="12dp"
+        android:text="Выход"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF" />
+</RelativeLayout>

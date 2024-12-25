@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <!-- Изображение онбординга -->
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/onboarding_icon"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="16dp"
+        android:layout_gravity="center_horizontal" />
+
+
+    <!-- Заголовок для каждого экрана онбординга -->
+    <TextView
+        android:id="@+id/messengerTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Onboarding Title"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal" />
+
+    <!-- Описание для каждого экрана онбординга -->
+    <TextView
+        android:id="@+id/messengerDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Onboarding Description"
+        android:textSize="16sp"
+        android:gravity="center_horizontal" />
+
+</LinearLayout>
